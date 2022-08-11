@@ -1,0 +1,48 @@
+body::before {
+ display: block;
+ content: '';
+ height: 60px;
+}
+
+
+section h1 {
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.nav-link {
+ font-size: 20px;
+}
+
+.navbar-brand {
+ font-size: 25px;
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.btn {
+ font-weight: bolder;
+}
+
+.blue-button:hover {
+ background-color: #fff;
+ color: #1976D2;
+}
+
+section .nav-img {
+ height: 300px;
+}
+
+
+@media (min-width: 768px) {
+ .news-input {
+  width: 65%;
+ }
+}
+
+section .learn-solve {
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+section .learning-img {
+ border-radius: 8px;
+}
